@@ -11,7 +11,7 @@ Install latex environment and gnucash-python
 * for Ubuntu 14.04: sudo aptitude install texlive-latex-base texlive-latex-recommended python-gnucash texlive-lang-german pdflatex ipython
 
 Change for your needs:
-* latex_invoices.py: change input_url = '' to your gnucash connections (file, mysql, etc.) for MySQL it's mysql://<USERNAME>:<PASSWORD>@<SERVER>/<DATABASE>
+* latex_invoices.py: scroll down to 'def main' and change input_url = '' to your gnucash connections (file, mysql, etc.) for MySQL it's mysql://<USERNAME>:<PASSWORD>@<SERVER>/<DATABASE>
 * Replace Benjamin_Franklein.pdf with your signature (source:https://commons.wikimedia.org/wiki/File:Autograph_of_Benjamin_Franklin.svg)
 * adapt company.lco to fit your needs
 
