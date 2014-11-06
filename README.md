@@ -16,5 +16,7 @@ Change for your needs:
 * adapt company.lco to fit your needs
 
 Now you can start:
-<code>python latex_invoices.py -l 
-python latex_invoices.py -n <YOUR_INVOICE_NO></code>
+
+<code>python latex_invoices.py -l</code>
+
+<code>python latex_invoices.py -n <YOUR_INVOICE_NO></code>
