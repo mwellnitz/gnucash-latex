@@ -15,6 +15,6 @@ Change for your needs:
 * Replace Benjamin_Franklein.pdf with your signature (source:https://commons.wikimedia.org/wiki/File:Autograph_of_Benjamin_Franklin.svg)
 * adapt company.lco to fit your needs
 
-Run as follows:
-python latex_invoices.py -l 
-python latex_invoices.py -n <YOUR_INVOICE_NO>
+Now you can start:
+<code>python latex_invoices.py -l 
+python latex_invoices.py -n <YOUR_INVOICE_NO></code>
