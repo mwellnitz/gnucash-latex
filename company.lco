@@ -1,0 +1,39 @@
+\ProvidesFile{company.lco}[]
+%---------------------------------------------------------------------------
+% Absender
+\setkomavar{fromname}{Max Mustermann}
+\setkomavar{fromaddress}{Musterstraße 2, 123456 Musterstadt}
+\setkomavar{fromphone}{+49 123 123 123}
+%\renewcommand{\phonename}{Telefon}
+\setkomavar{fromfax}{+49 123 123 123}
+\setkomavar{fromemail}{max@muster.sonstwie}
+\setkomavar{backaddressseparator}{, }
+%\setkomavar{signature}{Max Mustermann}
+\setkomavar{signature}{Max Mustermann\\\includegraphics[width=8cm]{Benjamin_Franklin.pdf}}
+\setkomavar{frombank}{}
+\newkomavar{cellphone}
+\setkomavar{cellphone}{+49 123 123 123}
+\newkomavar{bankname}
+\setkomavar{bankname}{DAB Bank}
+\newkomavar{accountholder}
+\setkomavar{accountholder}{Max Mustermann}
+\newkomavar{BIC}
+\setkomavar{BIC}{XXXXXXXXXXX}
+\newkomavar{IBAN}
+\setkomavar{IBAN}{DE11111111111111111111}
+\setkomavar{location}{\\
+  [5ex]\raggedleft{
+    %\footnotesize{
+    \scriptsize{
+        \usekomavar{fromaddress}\\
+	Telefon: \usekomavar{fromphone}\\
+        Mobil: \usekomavar{cellphone}\\
+        Fax: \usekomavar{fromfax}\\
+        \usekomavar{fromemail}\\
+        Bank: \usekomavar{bankname}\\
+        BIC: \usekomavar{BIC}\\
+        IBAN: \usekomavar{IBAN}\\
+    }
+  }
+}%% Neben dem Adressfenster
+%---------------------------------------------------------------------------
