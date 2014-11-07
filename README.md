@@ -6,6 +6,7 @@ Create good looking invoices for gnucash using latex and python
 ###### Marcus Wellnitz (MWE) 2014-10-19
 ###### Die in dieser Distribution von mir vorgenommenen Änderungen sind Public domain. 
 ###### Bitte beachten: Die Rechte Anderer Autoren sind entsprechend gekennzeichnet (Quellcode)
+Weitegehende Infos im Wiki: [https://github.com/mwellnitz/gnucash-latex/wiki]
 
 ##### Install latex environment and gnucash-python
 * for Ubuntu 14.04: <code>sudo aptitude install texlive-latex-base texlive-latex-recommended python-gnucash texlive-lang-german pdflatex ipython</code>
