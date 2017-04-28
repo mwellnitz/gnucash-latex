@@ -7,9 +7,10 @@
 % Latest version of the LaTeX Project Public License is applicable. 
 % File may not be modified and redistributed under the same name 
 % without the author's prior consent.
-% MWE: 2014-10-16: minor changes or improvements (adapted to ubuntu 14.04)
+% Marcus Wellnitz: 2014-10-16: minor changes or improvements (adapted to ubuntu 14.04)
+% Marcus Wellnitz: 2017-04-28: fixed encoding
 %
-% MWE: 2014-10-16: additional Information
+% Marcus Wellnitz: 2014-10-16: additional Informations:
 % You have to create a file 'company.lco' in the same directory and adapt it with your needs:
 %\ProvidesFile{company.lco}[]
 %---------------------------------------------------------------------------
@@ -142,7 +143,7 @@
 
 %---------------------------------------------------------------------------
 % Versendungsart
-%\setkomavar{specialmail}{Einschreiben mit Rï¿½ckschein}
+%\setkomavar{specialmail}{Einschreiben mit Rückschein}
 %---------------------------------------------------------------------------
 % Anlage neu definieren
 \renewcommand{\enclname}{Anlage}
@@ -164,7 +165,7 @@
 %---------------------------------------------------------------------------
 \opening{Sehr geehrte Damen und Herren,}
 
-Ich erlaube mir, Ihnen folgende BetrÃ¤ge in Rechnung zu stellen:
+Ich erlaube mir, Ihnen folgende Beträge in Rechnung zu stellen:
 
 \begin{Rechnung}[N] %oder [N]
 \Steuersatz{19}{7}
@@ -173,7 +174,7 @@ Ich erlaube mir, Ihnen folgende BetrÃ¤ge in Rechnung zu stellen:
 
 Bitte zahlen Sie den Betrag von \Gesamtsumme \, bis zum \usekomavar{date_due} auf mein oben angegebenes Konto.
 
-\closing{Mit bestem Dank und freundlichen GrÃ¼ÃŸen,}
+\closing{Mit bestem Dank und freundlichen Grüßen,}
 %---------------------------------------------------------------------------
 %\ps{PS:}
 %\encl{}

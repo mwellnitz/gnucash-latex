@@ -1,8 +1,10 @@
 \ProvidesFile{company.lco}[]
 %---------------------------------------------------------------------------
+% Marcus Wellnitz 2014,2017
+% this file is distributed under the terms of the GNU General Public License
 % Absender
 \setkomavar{fromname}{Max Mustermann}
-\setkomavar{fromaddress}{Musterstra√üe 2, 123456 Musterstadt}
+\setkomavar{fromaddress}{Musterstraﬂe 2, 123456 Musterstadt}
 \setkomavar{fromphone}{+49 123 123 123}
 %\renewcommand{\phonename}{Telefon}
 \setkomavar{fromfax}{+49 123 123 123}

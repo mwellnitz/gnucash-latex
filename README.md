@@ -4,8 +4,12 @@ gnucash-latex
 Create good looking invoices for gnucash using latex and python
 
 ###### Marcus Wellnitz (MWE) 2014-10-19
-###### Die in dieser Distribution von mir vorgenommenen Änderungen sind Public domain. 
+###### Die in dieser Distribution von mir vorgenommenen Änderungen unterliegen, soweit nicht anders bezeichnet, der GNU General Public License. 
 ###### Bitte beachten: Die Rechte Anderer Autoren sind entsprechend gekennzeichnet (Quellcode)
+###### 
+###### All my changes are distributed under the terms of the GNU General Public License if no other license is named.
+###### This is a collection of different tools. Some files have been licensed different.
+
 Weitegehende Infos im Wiki: [https://github.com/mwellnitz/gnucash-latex/wiki]
 
 ##### Install latex environment and gnucash-python
